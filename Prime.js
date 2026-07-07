@@ -6,7 +6,7 @@
  */
 // const n=parseInt();
 const n = parseInt(process.argv[2]);
-function isprime(number) {
+function isprime(num) {
    if (num <=1) return false;
 
     for (let i =2; i < num; i++) {
